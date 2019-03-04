@@ -3,6 +3,7 @@
     <nav>
       <router-link to='/videoswiper'>video+swiper</router-link>
       <router-link to='/video10/5'>video10</router-link>
+      <router-link to="/stream">stream</router-link>  
     </nav>
     <router-view></router-view>
   </div>
@@ -28,9 +29,14 @@ export default {
 
 nav {
   text-align: center;
+  height: 50px;
 }
 
 a:nth-child(2){
+  margin-left: 20px;
+}
+
+a:nth-child(3){
   margin-left: 20px;
 }
 </style>
